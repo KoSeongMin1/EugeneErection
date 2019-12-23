@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+    color: #333333;
+}
+body,html{
+    max-width: 100%;
+    background-color: #f2f2f2;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.clear{
+    clear: both;
+    position: inherit;
+}
+.wrap{
+    width: 1200px;
+}
+button{
+    cursor: pointer;
+}
+header{
+    height: 100px;
+}
+#logo{
+    padding: 28px;
+}
+nav{
+    float: right;
+}
+.mainmenu{
+    margin-top: -30px;
+    width: 640px;
+    margin-right: 28px;
+}
+.mainmenu>li{
+    float: left;
+    position: relative;
+    width: 160px;
+    text-align: center;
+    padding: 5px 0px;
+    height: 20px;
+    transition: all 0.4s;
+}
+.mainmenu>li:hover{
+    background-color: #ff5050;
+    color: #ffffff;
+}
+.submenu{
+    margin-top: 4px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    display: none;
+}
+.submenu>li{
+    padding: 5px 0px;
+    transition: all 0.4s;
+}
+.submenu>li:hover{
+    background-color: #ffc000;
+    color: inherit;
+}
+.subback{
+    width: 1200px;
+    height: 120px;
+    background-color: #5b9bd5;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+
+
+
+#imgslide{
+    height: 300px;
+}
+.slide img{
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+}
+
+
+
+#contents{
+    height: 200px;
+}
+#contents h2{
+    width: 100px;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    border-top: 1px solid #ff5050;
+    border-left: 1px solid #ff5050;
+    border-right: 1px solid #ff5050;
+    z-index: 1;
+    font-size: 20px;
+}
+#contents hr{
+    border: 0.5px solid #ff5050;
+    margin-top: -2px;
+}
+#notice{
+    width: 400px;
+    height: 200px;
+    float: left;
+    display: inline-block;
+}
+#notice table{
+    border-collapse: collapse;
+    width: 400px;
+    text-align: center;
+    margin-top: 2px;
+}
+#notice table td{
+    font-size: 0.9em;
+    padding: 5px 0;
+}
+.item{
+    width: 80%;
+    float: left;
+}
+.date{
+    width: 20%;
+    float: right;
+}
+#notice table tr:nth-child(2n){
+    background-color: #ffc000;
+}
+#gallery{
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+}
+#galleryimg{
+    padding: 30px 5px 5px 5px;
+}
+#galleryimg img{
+    width: 130px;
+    height: 100px;
+    float: left;
+}
+#galleryimg a img:hover{
+    opacity: 0.3;
+}
+#banner{
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    float: right;
+}
+#banner>a>img{
+    width: 400px;
+    margin-top: 3px;
+}
+
+footer{
+    height: 100px;
+    background-color: #ff5050;
+}
+#footertext{
+    width: 960px;
+    float: left;
+    margin: 24px;
+}
+.footermenu{
+    width: 600px;
+}
+.footermenu>li{
+    float: left;
+    width: 33%;
+    text-align: center;
+    color: #fff;
+}
+#footertext p{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px
+}
+#familysite{
+    padding-top: 40px;
+}
+#familysite button{
+    width: 50px;
+    height: 20px;
+    border: none;
+    background-color: #f2f2f2;
+}
+#familysite button:hover{
+    background-color: #ffc000;
+}
+#modal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    display: none;
+}
+#modalcontent{
+    width: 500px;
+    height: 420px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 150px;
+    border: 1px solid #ff5050;
+}
+#modalcontent>h2{
+    padding-top: 25px;
+}
+#modalcontent>p{
+    padding: 15px;
+}
+#modalcontent>button{
+    background-color: #ff5050;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+#modalcontent>button:hover{
+    background-color: #ffffff;
+    color: #ff5050;
+}
